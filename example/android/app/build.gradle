@@ -15,6 +15,7 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace = "com.example.flutter_bluetooth_serial"
     compileSdkVersion 30
     lintOptions {
         disable 'InvalidPackage'
